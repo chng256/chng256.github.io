@@ -1,96 +1,462 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-72751504-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<html>
 
 <head>
-    <meta charset="utf-8" />
-    <title>Cherry Ng</title>
-    <link rel="stylesheet" href="css/styles.css" />
-
-    <!-- Add the roboto font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link rel="icon" type="image/png" href="/images/favicon.ico" />
+    <title>Cherry Ng @ CU Boulder</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-panels.min.js"></script>
+    <script src="js/init.js"></script>
+    <noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+    <!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 </head>
 
 <body>
 
-    <header class="page-header">
+    <!-- Header -->
+    <div id="header" class="skel-panels-fixed">
+
         <div class="top">
-            <div class="header">
-                <div class="branding">
-                    <h1>Cherry Ng</h1>
-                    <h3>Department of Mathematics</h3>
-                </div>
-                <div class="navbar">
-                    <nav>
-                        <ul class="navigation">
-                            <li><a href="index.html" class="this-page">Home</a></li>
-                            <li class="dropdown">
-                                <a href="teaching.html">Teaching</a>
-                                <ul class="dropdown-content">
-                                    <li><a href="courses.html">Courses</a></li>
-                                    <li><a href="office_hours.html">Office Hours</a></li>
-                                    <li><a href="cool_stuff.html">Cool stuff</a></li>
-                                    <li><a href="old_classes.html">Old Classes</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="research.html">Research</a></li>
-                            <li><a href="projects.html">Projects</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
+
+            <!-- Logo -->
+            <div id="logo">
+                <!-- <span class="image"><img src="images/CUlogoreverse.png" alt="" /></span> -->
+            </div><br />
+
+            <!-- Nav -->
+            <nav id="nav">
+
+                <ul>
+                    <li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="fa fa-home">Home</span></a></li>
+                    <li><a href="#teaching" id="teaching-link" class="skel-panels-ignoreHref"><span class="fa fa-leaf">Teaching</span></a></li>
+                    <li><a href="#research" id="research-link" class="skel-panels-ignoreHref"><span class="fa fa-paperclip">Research</span></a></li>
+                    <!-- <li><a href="teaching.html" id="portfolio-link" class="skel-panels-ignoreHref"><span class="fa fa-pagelines">Past Classes</span></a></li> -->
+                    <li><a href="#about" id="about-link" class="skel-panels-ignoreHref"><span class="fa fa-cloud">Projects</span></a></li>
+                    <li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="fa fa-envelope">Contact</span></a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="bottom">
+
+            <!-- Social Icons -->
+            <!-- <ul class="icons">
+							<li><a href="#" class="fa fa-twitter solo"><span>Twitter</span></a></li>
+							<li><a href="#" class="fa fa-facebook solo"><span>Facebook</span></a></li>
+							<li><a href="#" class="fa fa-envelope solo"><span>Email</span></a></li>
+						</ul> -->
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Intro -->
+        <section id="top" class="one">
+            <div class="container">
+
+                <a class="image featured"><img src="images/DifficultCamping2016.jpg" alt="" /></a>
+
+                <header>
+                    <h2 class="alt">Cherry Ng</h2>
+                    <h4 class="alt">Postdoctoral Lecturer</h4>
+                    <h4 class="alt">Department of Mathematics</h4>
+                    <h4>Northwestern University</h4>
+                </header>
+
+                <p>
+                    B.A. at New York University, 2009<br /> M.S. at New Jersey Institute of Technology, 2013<br /> Ph.D. at University of Colorado Boulder, 2022
+                </p>
+
+                <!-- <footer>
+								<a href="#portfolio" class="button scrolly">More details</a>
+							</footer> -->
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Teaching -->
+        <section id="teaching" class="two">
+            <div class="container">
+
+                <header>
+
+                    <h2>Current Teaching</h2>
+                    In Spring 2024, I'll be teaching Math 300 Foundations of Higher Math and Math 235 Series and Multiple Integrals.
+                    <!-- The link below is for TAing -->
+                    <!-- <p>Course Website: <a href="http://math.colorado.edu/math1300">http://math.colorado.edu/math1300</a></p> -->
+
+                </header>
+
+                <div align="center">
+                    <table>
+                        <tbody>
+                            <tr>&nbsp;</tr>
+                            <tr>
+                                <h2>Past Teaching at Northwestern</h2>
+                            </tr>
+                            <tr>
+                                <td class="teaching">SPRI 23</td>
+                                <td>Math 218-3 Single-variable calc with precalc</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>Math 368-0 Intro to optimization</td>
+                            </tr>
+                            <tr>
+                                <td>WINT 23</td>
+                                <td>Math 218-2 Single-variable calc with precalc</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>Math 220-1 Single-variable calc, coordinator</td>
+                            </tr>
+                            <tr>
+                                <td>FALL 22</td>
+                                <td>Math 218-1 Single-variable calc with precalc</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>Math 220-1 Single-variable calc</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table>
+                        <tbody>
+                            <tr>&nbsp;</tr>
+                            <tr>
+                                <h2>Past Teaching at CU Boulder</h2>
+                            </tr>
+                            <tr>
+                                <td class="teaching">SPRI 2021</td>
+                                <td>Math 2400 Calc 3</td>
+                            </tr>
+                            <tr>
+                                <td>SPRI 2020</td>
+                                <td>Math 2400 Calc 3</td>
+                            </tr>
+                            <tr>
+                                <td>FALL 2020</td>
+                                <td>Math 2400 Calc 3</td>
+                            </tr>
+                            <tr>
+                                <td>SPRI 2019</td>
+                                <td>Math 2400 Calc 3, coordinator</td>
+                            </tr>
+                            <tr>
+                                <td>FALL 2019</td>
+                                <td>Math 1300 Calc 1, coordinator</td>
+                            </tr>
+                            <tr>
+                                <td>SPRI 2018</td>
+                                <td>Math 2400 Calc 3, TA</td>
+                            </tr>
+                            <tr>
+                                <td>FALL 2018</td>
+                                <td>Math 2400 Calc 3, coordinator</td>
+                            </tr>
+                            <tr>
+                                <td>SUMM 2017</td>
+                                <td>Math 1300 Calc 1</td>
+                            </tr>
+                            <tr>
+                                <td>SPRI 2017</td>
+                                <td>Math 2300 Calc 2</td>
+                            </tr>
+                            <tr>
+                                <td>FALL 2017</td>
+                                <td>Math 1300 Calc 1</td>
+                            </tr>
+                            <tr>
+                                <td>FALL 2016</td>
+                                <td>Math 1300 Calc 1, TA</td>
+                            </tr>
+                            <tr>
+                                <td>SPRI 2015</td>
+                                <td>Math 1300 Calc 1, TA</td>
+                            </tr>
+                            <tr>
+                                <td>FALL 2014</td>
+                                <td>College algebra, TA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+		</div>   
+        </section>
+
+        <!-- Resarch -->
+        <section id="research " class="three ">
+            <div class="container ">
+
+                <header>
+                    <h2>Research</h2>
+                </header>
+                <p>I completed my PhD under the direction of Agn&egraves Beaudry at the University of Colorado Boulder. My research is in the area of algebraic topology. My interests include equivariant cohomology and other equivariant phenomena.</p>
+                <p>Thesis: Equivariant Homology of Representation Spheres for the Nonabelian Group of Order 21</p>
+                <p>I am currently working with NU student Eli Carroll on using cellular homology techniques to replicate recent results equivariant cohomology computations.</p>
+            </div>
+        </section>
+
+
+        <!-- 3230-4152-RGE92U mathematica activation key-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Projects-->
+        <section id="about " class="four ">
+            <div class="container ">
+
+                <header>
+                    <h2>Projects</h2>
+                </header>
+
+                <div align="center ">
+                    <table style="width:100% ">
+                        <tbody>
+                            <tr>
+                                <td width="25% ">3D Printing Program</td>
+                                <td>A team of graduate students (Carly Matson, Athena Pelfrey, and I) together with faculty supervisor Dr. Faan Tone Liu, were awarded a grant from Arts & Sciences Support of Eduation through Technology (ASSETT) to develop
+                                    3D-printed teaching materials and resources for the Math Department. Together with matching funds from the department, we designed and printed activities that are still used by Calculus classes at CU today. Here are
+                                    some highlights from the adventure!
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    </br>We started by printing objects from pre-made models that we found on the internet. This object is an oloid (it rolls funny!)</br><img src="http://math.colorado.edu/~chng3105/Printed_oloid.jpg " alt="3D printed
+                    oloid " style="height:180px; ">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    </br>We learned to use 3D modeling software to build our own models. </br>(Left) Models for demonstrating how to calculate volumes of solids by taking cross-sections. </br>(Right) Model generated by scanning a person with
+                                    Xbox Kinect. </br><img src="http://math.colorado.edu/~chng3105/Print_cross_section_models.png " alt="modeling some sliced objects " style="height:180px; ">&nbsp;&nbsp;<img src="http://math.colorado.edu/~chng3105/AthenaScan-Cura.png "
+                                        alt="Scan of person " style="height:180px; ">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    </br>The early days were full of printer mishaps and quality issues. </br>(Left) This is our spaghetti factory. </br>(Right) The thin rod is severely misprinted at the top.</br><img src="http://math.colorado.edu/~chng3105/Printed_spaghetti_factory.jpg "
+                                        alt="spaghetti factory " style="height:180px; ">&nbsp;&nbsp;<img src="http://math.colorado.edu/~chng3105/Printed_Washers_and_Shells.jpg " alt="Discretized paraboloids " style="height:180px; ">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    </br>Here are some of the finished products! </br>(Left) Model for demonstrating how to compute volume using the method of washers or method of cylindrical shells. </br>(Right) These yellow solids are part of a project written
+                                    by Athena Pelfrey. In this project, students practice computing volumes of solids by matching the printed objects with mathematical descriptions. See the associated worksheet here: (<a href="http://math.colorado.edu/~chng3105/SolidsWithKnownCrossSections.pdf ">Solids of Known Cross Sections Worksheet</a>)</br>
+                                    <img src="http://math.colorado.edu/~chng3105/Printed_Washers_Shells_Smooth.jpg " alt="Washers versus Shells method for computing volumes " style="height:256px; ">&nbsp;&nbsp;<img src="http://math.colorado.edu/~chng3105/Printed_Known_Cross_Sections_Project.jpg "
+                                        alt="Volumes by taking cross sections " style="height:256px; ">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    </br>We held a workshop for the department so that anyone could print their own objects! Here's the manual that we produced: (<a href="https://math.colorado.edu/~chng3105/CertificationWorkshop.pdf ">Manual for Printing at CU</a>)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    </br>Carly Matson and Athena Pelfrey also presented a poster about the outcome this project at the National IBLT Conference 2019. Here's the poster: (<a href="http://math.colorado.edu/~chng3105/F-IBLPoster.pdf ">IBL Poster</a>)
+                                    </br> <img src="http://math.colorado.edu/~chng3105/IMG_20190606_174826.jpg " alt="Carly and Athena presenting a poster on our work " style="height:256px; "></br>The project and remaining funds were passed to other graduate
+                                    students in 2019
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <td>Graphing with TikZ</td>
+                                <td>Here's a .tex file with several useful methods for graphing with TikZ
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td><a href="Files/Graphing_Master_Document.pdf ">PDF output</a> and <a href="Files/Graphing_Master_Document.tex ">LaTeX code</a> </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>Algebra Prelim Cards</td>
+                                <td>I wrote a set of flash cards for the Algebra Prelim at CU Boulder. Albany Thompson also made some improvements, and that version is the one shared here.</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td><a href="Files/Algebra_Prelim_Cards_(Albany).pdf ">PDF output</a> and <a href="Files/Algebra_Prelim_Cards_(Albany).tex ">LaTeX code</a> </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-        </div>
-    </header>
+        </section>
 
 
-    <main class="content">
-        <div class="primary">
-            <article>
-                <header class="entry-header">
 
-                    <h1>Welcome!</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Contact -->
+        <section id="contact " class="three ">
+            <div class="container ">
+
+                <header>
+                    <h2>Contact</h2>
                 </header>
-                <div class="entry-content">
-                    <a><img src="images/ng_cherry_headshot.jpeg" alt="" style="width: 15em; float: right;" /></a>
 
-                    <p>
-                        Lorem ipsum odor amet, consectetuer adipiscing elit. Morbi blandit duis venenatis velit finibus
-                        molestie? Class rhoncus maecenas lectus ornare tortor curabitur. In sit dictum scelerisque
-                        litora nulla etiam. Vehicula interdum metus porta sociosqu maecenas pulvinar tempor tempus
-                        aenean. Mattis nascetur nam tortor quisque phasellus curabitur sit vehicula. Lacinia gravida
-                        sollicitudin venenatis nullam aliquet leo leo dignissim.
+                <p><b><u>E-mail</u></b> :<i> cherry.ng@northwestern.edu</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <u>Office</u></b> :<i> Locy 203 </i><br />
+                    <!-- <b><u>Address</u></b> :<i> Str. Augsburg, No.4, Bucharest</i><br />
+							   <b><u>Facebook</u></b> :<i> Marc Tannous</i><br />
+							   <b><u>Twitter</u></b> :<i> @tannousmarc</i></p> -->
 
-                    </p>
-                    <p>
-                        Eu quam dapibus elit molestie nec massa. Lorem ad curabitur hendrerit torquent ligula fusce.
-                        Senectus pulvinar hendrerit suscipit feugiat phasellus commodo taciti. Dignissim aliquet gravida
-                        elementum morbi magnis, quis mi sit. Donec leo facilisi vivamus erat nostra. Torquent suscipit
-                        nunc magnis hac mattis? Pulvinar nam lobortis purus, sagittis nisi aptent arcu in gravida.
-                        Tincidunt fermentum adipiscing nisl eleifend ridiculus fusce inceptos maecenas. Fusce porttitor
-                        varius per ex sagittis viverra. Adipiscing ullamcorper diam, orci augue fermentum vulputate.
-                    </p>
-                    <p>
-                        Commodo varius luctus platea lacinia; mattis mattis tincidunt. Consequat auctor tempor etiam
-                        velit platea vel pretium consectetur. Blandit rutrum consectetur erat ipsum lectus cubilia
-                        interdum tristique. Gravida orci ullamcorper commodo potenti suspendisse ex velit suscipit odio.
-                        Elit parturient etiam euismod sit cursus. Luctus amet massa sociosqu mus posuere egestas eu
-                        sollicitudin. Montes quisque facilisis commodo pulvinar leo habitant maecenas molestie eu.
-                    </p>
 
-                </div>
 
-            </article>
+            </div>
+        </section>
 
         </div>
-    </main>
 
-    <footer>
-        Copyright © 2024 Cherry Ng
-    </footer>
+
 
 </body>
 
