@@ -3,6 +3,7 @@ body {
     margin: 0px;
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     background-color: #ebe4e4;
 }
 
@@ -62,6 +63,14 @@ div.branding h1 {
 div.branding h3 {
     padding: 0em;
     margin: 0em;
+}
+
+ul li {
+    margin-bottom: 7px;
+}
+
+span.small {
+  font-size: smaller;
 }
 
 nav ul {
